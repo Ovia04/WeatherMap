@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        text-transform: capitalize;
+        box-shadow: 0 0 1px black;
+    }
+    #cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(300px , 1fr)) ;
+        justify-items: center;
+        padding: 2rem;
+        gap: 20px;
+    }
+    .card img {
+        width: fill;
+        height: 200px;
+        object-fit: cover;
+    }
+    #weather{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+    }
